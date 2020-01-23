@@ -1,0 +1,45 @@
+.main-block{
+    margin: auto;
+}
+.circle-item {
+  border-radius: 50%;
+  margin: 25px auto 20px;
+  display: block;
+  max-width: 99%;
+  min-width: 30px;
+  max-height: 99%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+.circle-item:hover{
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+h1{
+    width: 100%;
+    font-family: 'Noto Sans JP', regular;
+    font-size: 48px;
+    color: rgba(64, 159, 255, 0.795);
+    position: absolute;
+    top: 14vh;
+    margin-left: 25%;
+}
+
+@media screen and (max-width: 800px){
+    h1{
+        font-size: 24px;
+        margin-left: 40px;
+    }
+    /**
+    .circle-item {
+        display: none;
+    }**/    
+}
+.account{
+    position: absolute;
+    margin: 5px auto 5px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    top: 0;
+    right: 0;
+}
